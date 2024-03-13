@@ -1,21 +1,13 @@
 # Harry Potter (React)
 
-Esse projeto possui um formulário que envia os dados para um Service e depois o Repositório.
+Esse projeto busca todos os dados de Harry Potter na api pública "https://hp-api.onrender.com". Ele possui 3 telas diferentes:
 
-O Repositorio envia os dados para uma api 'http://localhost:8080'.
+- A tela inicial exibe alguns informações sobre a saga;
 
-Esse projeto busca todos os personagens de Harry Potter na api pública "https://hp-api.onrender.com".
+- A segunda tela contem informações sobre os personagens (nome, espécie, gênero e casa). Também possui um botão de busca para localizar um personagem pelo nome;
 
-Na tela é exibido um input para digitar o nome de um personagem e o botão "Buscar".
+- A terceira tela filtra os personagens pela sua casa e exibe outras informações sobre os personagens (nome, patrono e varinha);
 
-Ao digitar são exibidos os personagens que estão de acordo com o que foi digitado.
-
-
-Esse projeto busca todos os personagens de Harry Potter na api pública "https://hp-api.onrender.com".
-
-Na tela é exibido um input para digitar o nome de um personagem e o botão "Buscar".
-
-Ao buscar um personagem, seus dados serão exibidos no console.
 
 <br><br>
 ## 🚀 Tecnologias

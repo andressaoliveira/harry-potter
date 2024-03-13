@@ -12,6 +12,7 @@ const App = () => {
         <Menu />
         <div className="display-prova">
           <Route path="/" exact component={Sobre} />
+          <Route path="/harry-potter" exact component={Sobre} />
           <Route path="/Casas" component={Casas} />
           <Route path="/Personagens" component={Personagens} />
         </div>
