@@ -1,0 +1,11 @@
+.lista-personagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.personagem {
+    border: 1px solid red;
+    width: 200px;
+    margin: 5px 5px;
+}
