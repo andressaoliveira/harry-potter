@@ -11,10 +11,10 @@ const App = () => {
       <BrowserRouter>
         <Menu />
         <div className="display-prova">
-          <Route path="/" exact component={Sobre} />
+          {/* <Route path="/" exact component={Sobre} /> */}
           <Route path="/harry-potter" exact component={Sobre} />
-          <Route path="/Casas" component={Casas} />
-          <Route path="/Personagens" component={Personagens} />
+          <Route path="/harry-potter/Casas" component={Casas} />
+          <Route path="/harry-potter/Personagens" component={Personagens} />
         </div>
       </BrowserRouter>
     </div>
